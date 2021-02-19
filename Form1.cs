@@ -20,7 +20,7 @@ namespace EntityFrameWork
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            dgwProducts.DataSource = _productDal.GetAll();
+            LoadProducts();
         }
 
         private void LoadProducts()
